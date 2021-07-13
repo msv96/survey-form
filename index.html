@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guvi Task 4</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" crossorigin="anonymous" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC">
+</head>
+<body>
+    <form method="POST">
+        <div class="container overall">
+            <div class="row">
+                <div class="bold">
+                    Name<span class="red"> *</span>
+                </div>
+                <div class="col">
+                    <input type="text" name="fname" id="first" required class="full-percent"><br>
+                    <label for="first" class="labelsmall">First</label>
+                </div>
+                <div class="col">
+                    <input type="text" name="lname" id="last" required class="full-percent"><br>
+                    <label for="last" class="labelsmall">Last</label>
+                </div>
+                <div class="col"></div>
+                <div class="col"></div>
+            </div><br>
+            <div class="row">
+                <div class="bold">
+                    Email<span class="red"> *</span>
+                </div>
+                <div class="col">
+                    <input type="email" name="mailid" id="email" required class="half-percent">
+                </div>
+            </div><br>
+            <div class="row">
+                <div class="bold">
+                    Your Experience<span class="red"> *</span>
+                </div>
+                <div class="col">
+                    <span class="star-rating55">
+                      <input type="radio" name="rating1" value="1"><i></i>
+                      <input type="radio" name="rating1" value="2"><i></i>
+                      <input type="radio" name="rating1" value="3"><i></i>
+                      <input type="radio" name="rating1" value="4"><i></i>
+                      <input type="radio" name="rating1" value="5"><i></i>
+                    </span>
+                </div><br>
+                <div>
+                    Overall, how would you rate your experience with us?
+                </div>
+            </div><br>
+            <div>
+                <div class="row">
+                    <div class="bold">
+                        How satisfied are you with<span class="red"> *</span>
+                    </div>
+                    <div class="col another-property">
+                    </div>
+                    <div class="col another-property">
+                        Very Unsatisfied
+                    </div>
+                    <div class="col another-property">
+                        Unsatisfied
+                    </div>
+                    <div class="col another-property">
+                        Neutral
+                    </div>
+                    <div class="col another-property">
+                        Satisfied
+                    </div>
+                    <div class="col another-property">
+                        Very Satisfied
+                    </div>
+                </div>
+                <div class="row grey">
+                    <div class="col padd">
+                        Purchase
+                    </div>
+                    <div class="col another-property">
+                        <input type="radio" name="rating1" id="1" value="1" required>
+                    </div>
+                    <div class="col another-property">
+                        <input type="radio" name="rating1" id="2" value="2" required>
+                    </div>
+                    <div class="col another-property">
+                        <input type="radio" name="rating1" id="3" value="3" required>
+                    </div>
+                    <div class="col another-property">
+                        <input type="radio" name="rating1" id="4" value="4" required>
+                    </div>
+                    <div class="col another-property">
+                        <input type="radio" name="rating1" id="5" value="5" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col padd">
+                        Service
+                    </div>
+                    <div class="col another-property">
+                        <input type="radio" name="rating2" id="1" value="1" required>
+                    </div>
+                    <div class="col another-property">
+                        <input type="radio" name="rating2" id="2" value="2" required>
+                    </div>
+                    <div class="col another-property">
+                        <input type="radio" name="rating2" id="3" value="3" required>
+                    </div>
+                    <div class="col another-property">
+                        <input type="radio" name="rating2" id="4" value="4" required>
+                    </div>
+                    <div class="col another-property">
+                        <input type="radio" name="rating2" id="5" value="5" required>
+                    </div>
+                </div>
+                <div class="row grey">
+                    <div class="col padd">
+                        Company Overall
+                    </div>
+                    <div class="col another-property">
+                        <input type="radio" name="rating3" id="1" value="1" required>
+                    </div>
+                    <div class="col another-property">
+                        <input type="radio" name="rating3" id="2" value="2" required>
+                    </div>
+                    <div class="col another-property">
+                        <input type="radio" name="rating3" id="3" value="3" required>
+                    </div>
+                    <div class="col another-property">
+                        <input type="radio" name="rating3" id="4" value="4" required>
+                    </div>
+                    <div class="col another-property">
+                        <input type="radio" name="rating3" id="5" value="5" required>
+                    </div>
+                </div>
+            </div><br>
+            <div>
+                <div class="row">
+                    <div class="bold">
+                        How likely are you to<span class="red"> *</span>
+                    </div>
+                    <div class="col another-property">
+                    </div>
+                    <div class="col another-property">
+                        Very Unsatisfied
+                    </div>
+                    <div class="col another-property">
+                        Unsatisfied
+                    </div>
+                    <div class="col another-property">
+                        Neutral
+                    </div>
+                    <div class="col another-property">
+                        Satisfied
+                    </div>
+                    <div class="col another-property">
+                        Very Satisfied
+                    </div>
+                </div>
+                <div class="row grey">
+                    <div class="col padd">
+                        Buy from us again
+                    </div>
+                    <div class="col another-property">
+                        <input type="radio" name="rating4" id="1" value="1" required>
+                    </div>
+                    <div class="col another-property">
+                        <input type="radio" name="rating4" id="2" value="2" required>
+                    </div>
+                    <div class="col another-property">
+                        <input type="radio" name="rating4" id="3" value="3" required>
+                    </div>
+                    <div class="col another-property">
+                        <input type="radio" name="rating4" id="4" value="4" required>
+                    </div>
+                    <div class="col another-property">
+                        <input type="radio" name="rating4" id="5" value="5" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col padd">
+                        Recommend our product to others
+                    </div>
+                    <div class="col another-property">
+                        <input type="radio" name="rating5" id="1" value="1" required>
+                    </div>
+                    <div class="col another-property">
+                        <input type="radio" name="rating5" id="2" value="2" required>
+                    </div>
+                    <div class="col another-property">
+                        <input type="radio" name="rating5" id="3" value="3" required>
+                    </div>
+                    <div class="col another-property">
+                        <input type="radio" name="rating5" id="4" value="4" required>
+                    </div>
+                    <div class="col another-property">
+                        <input type="radio" name="rating5" id="5" value="5" required>
+                    </div>
+                </div>
+                <div class="row grey">
+                    <div class="col padd">
+                        Recommend our company to others
+                    </div>
+                    <div class="col another-property">
+                        <input type="radio" name="rating6" id="1" value="1" required>
+                    </div>
+                    <div class="col another-property">
+                        <input type="radio" name="rating6" id="2" value="2" required>
+                    </div>
+                    <div class="col another-property">
+                        <input type="radio" name="rating6" id="3" value="3" required>
+                    </div>
+                    <div class="col another-property">
+                        <input type="radio" name="rating6" id="4" value="4" required>
+                    </div>
+                    <div class="col another-property">
+                        <input type="radio" name="rating6" id="5" value="5" required>
+                    </div>
+                </div><br>
+            </div>
+            <div class="row">
+                <div class="bold">
+                    Additional comments or suggestions
+                </div>
+                <div>
+                    <textarea name="comments" id="comment-box" cols="auto" rows="4" class="full-percent"></textarea>
+                </div>
+            </div><br>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>
