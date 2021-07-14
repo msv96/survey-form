@@ -11,9 +11,6 @@
 .full-percent {
     width: 100%;
 }
-.half-percent {
-    width: 50%;
-}
 .labelsmall {
     font-size: 13px;
 }
@@ -74,3 +71,4 @@
 .star-rating55 i ~ i ~ i ~ i ~ i {
     width: 100%;
 }
+
